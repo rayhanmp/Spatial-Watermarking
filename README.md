@@ -1,5 +1,8 @@
 # Spatial Watermarking with Correlation Based Detection
 
+A simple program to embed and detect spatial watermark using Python.
+
+## Introductory
 Watermarking can be achieved through various methods, but the most straightforward approach involves **imbedding the original image using white noise** generated in a controlled manner. The white noise is created with a specific seed for reproducibility, and this seed serves as a user-defined key of sorts. Subsequently, comparing the watermarked image to the noise allows us to ascertain the correlation value. If the correlation surpasses a designated threshold, it indicates the presence of the watermark.
 
 ## 🔥 Features
@@ -20,7 +23,7 @@ Watermarking can be achieved through various methods, but the most straightforwa
     cd Spatial-Watermarking
     ```
 
-3. Install dependencies (if any):
+3. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
